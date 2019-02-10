@@ -49,7 +49,7 @@ Help is also shown if you enter an incorrect command e.g. `abcd`
 
 == Adding a person: `add`
 
-Adds a person to the address book. +
+Adds a person to the address book in alphabetical order. +
 Format: `add NAME [p]p/PHONE_NUMBER [p]e/EMAIL [p]a/ADDRESS [t/TAG]...`
 
 ****
@@ -69,7 +69,7 @@ Examples:
 
 == Listing all persons : `list`
 
-Shows a list of all persons, along with their non-private details, in the address book. +
+Shows a list of all persons, along with their non-private details, in the address book. (sorted by name) +
 Format: `list`
 
 == Finding all persons containing any keyword in their name: `find`
