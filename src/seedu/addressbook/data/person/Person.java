@@ -93,7 +93,7 @@ public class Person implements ReadOnlyPerson {
 
         @Override
         public int compare(Person p1, Person p2) {
-            return p1.getName().toString().compareTo(p2.getName().toString());
+            return p1.getName().toString().toLowerCase().compareTo(p2.getName().toString().toLowerCase());
         }
     }
 
