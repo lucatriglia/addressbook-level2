@@ -89,11 +89,20 @@ public class Person implements ReadOnlyPerson {
         return getAsTextShowAll();
     }
 
+    /**
+     * Inner class to add a Comparator for the person class
+     */
     public static class PersonComparator implements Comparator<Person> {
 
         @Override
         public int compare(Person p1, Person p2) {
-            return p1.getName().toString().toLowerCase().compareTo(p2.getName().toString().toLowerCase());
+            int result = 0;
+            try {
+                result = p1.getName().toString().toLowerCase().compareTo(p2.getName().toString().toLowerCase());
+            } catch (Exception e) {
+                System.out.println(e.getStackTrace());
+            }
+            return result;
         }
     }
 

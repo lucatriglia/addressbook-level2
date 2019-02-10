@@ -122,6 +122,9 @@ public class UniquePersonList implements Iterable<Person> {
         }
     }
 
+    /**
+     * Sorts the Person List based on the personComparator defined in the person class
+     */
     public void sortUniquePersonList() {
         Collections.sort(internalList, new Person.PersonComparator());
     }
