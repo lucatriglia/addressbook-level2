@@ -290,6 +290,27 @@
 || 
 || 2 persons listed!
 || ===================================================
+|| Enter command: || [Command entered:  add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school]
+|| New person added: Charlie Dickson Phone: (private) 333333 Email: charlie.d@nus.edu.sg Address: 333, gamma street Tags: [school][friends]
+|| ===================================================
+|| Enter command: || [Command entered:  list]
+|| 	1. Betsy Choo Tags: [secretive]
+|| 	2. Charlie Dickson Email: charlie.d@nus.edu.sg Address: 333, gamma street Tags: [school][friends]
+|| 	3. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
+||
+|| 3 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:  add ahri pp/3333344 e/ahri.d@nus.edu.sg a/333, bob street]
+|| New person added: ahri Phone: (private) 3333344 Email: ahri.d@nus.edu.sg Address: 333, bob street Tags:
+|| ===================================================
+|| Enter command: || [Command entered:  list]
+||      1. ahri Email: ahri.d@nus.edu.sg Address: 333, bob street Tags:
+||      2. Betsy Choo Tags: [secretive]
+||      3. Charlie Dickson Email: charlie.d@nus.edu.sg Address: 333, gamma street Tags: [school][friends]
+||      4. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
+||
+|| 4 persons listed!
+|| ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
 || ===================================================

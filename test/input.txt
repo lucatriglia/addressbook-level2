@@ -141,6 +141,19 @@
   list
 
 ##########################################################
+# test sorting functionality
+##########################################################
+
+  # currently Betsy in position 1 and Dickson in position 2
+  # Charlie Dickson should go to position 2 and Dickson should shift to 3
+  add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+  list
+
+  # test case insensitivity
+  add ahri pp/3333344 e/ahri.d@nus.edu.sg a/333, bob street
+  list
+
+##########################################################
 # test clear command
 ##########################################################
 
