@@ -114,6 +114,16 @@ public class TestUtil {
         }
     }
 
+    public static Person generateTestPersonWithName(String name) {
+        try {
+            return new Person(new Name(name), new Phone(Phone.EXAMPLE, false),
+                    new Email(Email.EXAMPLE, true), new Address(Address.EXAMPLE, false), Collections.emptySet());
+        } catch (IllegalValueException e) {
+            fail("test person data should be valid by definition");
+            return null;
+        }
+    }
+
     /**
      * Asserts whether the text in the two given files are the same. Ignores any
      * differences in line endings
