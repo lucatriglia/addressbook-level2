@@ -68,7 +68,9 @@ public class AddressBook {
         return new UniquePersonList(allPersons);
     }
 
-    public void sortAddressBook() { allPersons.sortUniquePersonList(); }
+    public void sortAddressBook() {
+        allPersons.sortUniquePersonList();
+    }
 
     @Override
     public boolean equals(Object other) {
