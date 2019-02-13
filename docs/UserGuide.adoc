@@ -69,7 +69,7 @@ Examples:
 
 == Listing all persons : `list`
 
-Shows a list of all persons, along with their non-private details, in the address book. (sorted by name) +
+Shows a list of all persons, along with their non-private details, in alphabetical order in the address book. +
 Format: `list`
 
 == Finding all persons containing any keyword in their name: `find`
